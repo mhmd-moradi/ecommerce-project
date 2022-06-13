@@ -30,6 +30,7 @@ window.onload = function () {
     })
       .then(function (response) {
         console.log(response);
+        localStorage.setItem("access_token", response.data.access_token);
       })
       .catch(function (error) {
         // handle error
