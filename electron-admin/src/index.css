@@ -1,7 +1,122 @@
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
-    Arial, sans-serif;
-  margin: auto;
-  max-width: 38rem;
-  padding: 2rem;
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Global Elements */
+img {
+    height: 100%;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Login Section */
+.header{
+    background-color: #f0f2f5;
+    height: 720px;
+    padding: 120px 0;
+}
+
+#login-container{
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.container{
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#intro{
+    width: 500px;
+}
+
+.logo{
+    width: 300px;
+}
+
+.logo img{
+    width: 100%;
+    margin-left: -30px;
+}
+
+#login{
+    width: 396px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+#login-fields{
+    width: 364px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field{
+    margin-top: 15px;
+}
+
+#login input{
+    width: 100%;
+    height: 52px;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+#login button{
+    height: 52px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    line-height: 48px;
+    padding: 0 16px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#login-btn{
+    background-color: #EE0000;
+    width: 100%;
+    font-size: 20px;
+}
+
+#login a{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#login a:hover{
+    text-decoration: underline;
+}
+
+#login hr{
+    width: 100%;
+}
+
+#signup-btn{
+    background-color: #EE0000;
+    width: 50%;
+    font-size: 14px;
+    margin-bottom: 15px;
 }
